@@ -1,5 +1,5 @@
 import telebot
-from Config import ID
+from Config import *
 from extensions import APIException, ExchangeConverter
 
 bot = telebot.TeleBot(ID['token'])
